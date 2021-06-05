@@ -1,0 +1,80 @@
+body {
+    background-image: linear-gradient(to right, #46a4c3, #4871ea);
+}
+
+
+.nav-box {
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.project-name {
+    font-size: 1.5rem;
+    font-family: 'Titillium Web', sans-serif;
+    text-shadow: 2px 2px 15px black; 
+}
+
+.flood-info {
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.rainfall {
+    text-align: center;
+}
+
+
+.output-box {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-cls {
+    border: 1px solid black;
+    padding: 5px 20px;
+}
+
+.button-cls:hover {
+    background-color: #eb2d53;
+    transition: 2s;
+}
+
+.details {
+    font-size: 1.125rem;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    .project-name {
+        font-size: 3.125rem;
+    }
+    
+    .details {
+        font-size: 1.5625rem;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .flood-info {
+        font-size: 0.9375rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    .flood-info {
+        font-size: 1.25rem;
+    }
+}
